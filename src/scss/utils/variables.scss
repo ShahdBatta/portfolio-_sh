@@ -1,0 +1,19 @@
+// utils/_variables.scss
+
+// Colors
+$color-background-light: #F5EFE6;       // Light background for some elements
+$color-background-dark: #1a1a1a;        // Dark background for the main theme
+$color-background-accent: #2c2c2c;      // Darker accent for sections like 'About' or cards
+$color-primary: #6D94C5;                // Primary accent color
+$color-primary-light: #CBDCEB;          // Lighter primary accent color
+$color-text-dark: #ffffff;              // White text on dark backgrounds
+$color-text-light: #cccccc;             // Lighter gray for secondary text
+$color-lines: #555555;                  // Color for horizontal lines
+
+// Fonts
+$font-stack: 'Poppins', sans-serif;
+$font-stack-secondary: 'Montserrat', sans-serif; // For headings in the example portfolio
+
+// Breakpoints
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;

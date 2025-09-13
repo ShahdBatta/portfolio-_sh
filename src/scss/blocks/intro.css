@@ -1,0 +1,59 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 2rem 2rem 2rem;
+  background-color: #E8DFCA;
+}
+.intro__bio {
+  max-width: 600px;
+}
+.intro__bio h1 {
+  font-size: 2rem;
+  color: #6D94C5;
+  margin-bottom: 1rem;
+}
+.intro__bio p {
+  margin-bottom: 1.5rem;
+}
+.intro__bio .btn {
+  padding: 0.75rem 1.5rem;
+  margin-right: 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.intro__bio .btn--primary {
+  background-color: #6D94C5;
+  color: #fff;
+}
+.intro__bio .btn--primary:hover {
+  background-color: #CBDCEB;
+}
+.intro__bio .btn--secondary {
+  background-color: #F5EFE6;
+  color: #6D94C5;
+  border: 2px solid #6D94C5;
+}
+.intro__bio .btn--secondary:hover {
+  background-color: #6D94C5;
+  color: #fff;
+}
+.intro__image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro__image {
+    margin-bottom: 2rem;
+  }
+}/*# sourceMappingURL=intro.css.map */
